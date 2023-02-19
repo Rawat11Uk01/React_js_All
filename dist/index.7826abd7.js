@@ -2930,23 +2930,26 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _client = require("react-dom/client ");
 var _clientDefault = parcelHelpers.interopDefault(_client);
-const heading3 = /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-    children: "ok good"
-}, void 0, false, {
-    fileName: "App.js",
-    lineNumber: 3,
-    columnNumber: 18
-}, undefined);
+const heading3 = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+        children: "ok good"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 3,
+        columnNumber: 24
+    }, undefined);
 const FunctionalComponent = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
-        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-            children: "What's up"
-        }, void 0, false, {
-            fileName: "App.js",
-            lineNumber: 5,
-            columnNumber: 12
-        }, undefined)
-    }, void 0, false);
+        children: [
+            console.log("ok"),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                children: "What's up"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 5,
+                columnNumber: 31
+            }, undefined)
+        ]
+    }, void 0, true);
 };
 _c = FunctionalComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
