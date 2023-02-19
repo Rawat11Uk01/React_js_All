@@ -2,9 +2,10 @@
   "name": "react_js_nr",
   "version": "1.0.0",
   "description": "this is practice course",
-  "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "parcel index.html",
+    "test": "jest",
+    "build":"parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -17,11 +18,16 @@
   },
   "homepage": "https://github.com/Rawat11Uk01/React_js_All#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
 }
